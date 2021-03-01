@@ -1,0 +1,144 @@
+
+/*Open Sans a été choisi comme police par défaut*/
+body{
+	background-image: url("../img/fond.png");
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	color: #586e74;
+	margin: 0 auto;
+}
+
+/*Entete de la page */
+header{
+	background-color: #34b1b2;
+	margin: 100px 0;
+	padding-bottom: 20px;
+	height: 180px;
+	border: 4px solid #2B9AA0;
+	border-right: none;
+	border-left: none;
+}
+/*Logo de la page*/
+header img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+/*La barre de navigation*/
+header nav{
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	margin-top: 30px;
+}
+/*Elements de la barre de navigation*/
+nav a{
+	color: white;
+	text-decoration: none;
+	margin: 0px 15px auto;
+	font-size: 1.4em;
+}
+/**/
+
+.container{
+	min-width: 800px;
+	max-width: 1100px;
+}
+/**/
+main{
+	margin: auto;
+}
+/**/
+main > section{
+	text-align: center;
+}
+/**/
+#titre{
+	font-size: 250%;
+	text-align: center;
+}
+/**/
+#section1{
+	background-color: #B6DEDC;
+	width: 67%;
+	display:inline-block;
+	vertical-align: top;
+	padding: 1.5%;
+	margin: 50px 2% 0 0;
+}
+/**/
+#section1 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	text-align:justify;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+/**/
+#section1 > h2{
+	font-size: 350%;
+	font-family: 'Slabo 27px', serif;
+}
+/*Texte partie présentation*/
+#presentation{
+	padding: 20px  ;
+}
+/*Arrandissement image*/
+section img{
+	border-radius: 50%;
+	float: left;
+}
+#section1 h3{
+	font-size: 30px;
+	font-family: 
+	font-family: 'Slabo 27px', serif;
+}
+main a{
+	background-color: #2B9AA0;
+	color: white;
+	text-decoration: none;
+	margin: 40px;
+width: 40%;
+height: 40%;
+
+}
+/**/
+aside{
+	background-color: #34b1b2;
+	border: 4px solid #2B9AA0;
+	display: inline-block;
+	width:25%;
+	height: auto;
+	margin-top: 50px;
+}
+aside h3{
+	font-size: 25px;
+}
+aside h2{
+	font-size: 20px;
+	color: #B6DEDC;
+}
+aside article{
+	color: white;
+}
+
+/**/
+span{
+     color: #2B9AA0;
+}
+/**/
+aside img{
+	float: right;
+	margin: -140px -60px 0 0;
+}
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
